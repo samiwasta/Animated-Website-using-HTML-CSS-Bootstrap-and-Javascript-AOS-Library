@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display&family=Kaushan+Script&display=swap');
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: grid;
+    padding: 3vmin;
+    background: #e6ded7;
+}
+
+.navbar-brand
+{
+    font-size: 2em;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar-brand:hover
+{
+    color: black;
+}
+
+.nav-link
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover
+{
+    color: rgb(26, 222, 248);
+}
+
+.search
+{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid rgb(26, 222, 248);
+    font-family: 'Rubik', sans-serif;
+}
+
+.search:hover
+{
+    border-color: rgb(77, 101, 233);
+}
+
+.btn0
+{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(26, 222, 248);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+
+.btn1
+{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:rgb(26, 222, 248);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover,
+.btn0:hover
+{
+    background-color: rgb(77, 101, 233);
+    transition: 0.5s;
+}
+
+.carousel-item
+{
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption
+{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h1
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.carousel-caption h3
+{
+    font-size: 2rem;
+    top: 2rem;
+}
+
+.rank1 img
+{
+    height: 100vh;
+    width: 100%;
+}
+
+h2
+{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.hvrbox .hvrbox-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideup,
+.hvrbox.active .hvrbox-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.card-body img
+{
+    height: 640px;
+    width:  720px;
+}
+
+footer
+{
+    margin-top: 20px;
+    height: 50px;
+    background: black;
+    text-align: center;
+}
+
+.footer-text
+{
+    font-size: 1rem;
+}
+
+.footer-link
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

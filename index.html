@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Rank</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hotel <span style="color: red;">'N'</span> Rank</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav m-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending Hotels</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Hotels by Stars
+            </a>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">&#9733;&#9733;&#9733;&#9733;&#9733; Stars</a></li>
+              <li><a class="dropdown-item" href="#">&#9733;&#9733;&#9733;&#9733;&#9734; Stars</a></li>
+              <li><a class="dropdown-item" href="#">&#9733;&#9733;&#9733;&#9734;&#9734; Stars</a></li>
+              <li><a class="dropdown-item" href="#">&#9733;&#9733;&#9734;&#9734;&#9734; Stars</a></li>
+              <li><a class="dropdown-item" href="#">&#9733;&#9734;&#9734;&#9734;&#9734; Stars</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="px-2 search" type="search" placeholder="Search Hotels" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/carousel_1.jpg" class="d-block w-100" alt="image1">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Hotel Ranking Based On</h1>
+          <h3>Hotel <span style="color: rgb(26, 222, 248);">Service</span></h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel_2.jpg" class="d-block w-100" alt="image2">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Hotel Ranking Based On</h1>
+          <h3>Hotel <span style="color: rgb(26, 222, 248);">Interior</span></h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel_3.jpg" class="d-block w-100" alt="image3">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Hotel Ranking Based On</h1>
+          <h3>Hotel <span style="color: rgb(26, 222, 248);">Quality</span></h3>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h2 class="m-auto text-center py-3">Hotel <span style="color: red;">'N'</span> Rank</h2>
+  <h1 class="m-auto text-center">India's Top 5 Hotels</h1>
+
+  <section class="rank1 py-3">
+    <div class="container" data-aos="fade-in">
+      <div class="row">
+        <div class="card shadow-lg">
+          <h1 class="card-title">
+            <span style="color: rgb(77, 101, 233);">1.</span> Umaid Bhawan Palace, Jodhpur
+          </h1>
+          <img src="/images/rank_1.jpg" alt="">
+          <div class="card-body">
+              <h5 class="card-text">
+                One of the largest royal residences in the world, the golden-yellow sandstone Umaid Bhawan Palace is a
+                monument to Jodhpur’s gallantry and romance. Guests get a taste of what it was like to live like kings.
+                From rooms once occupied by the Maharaja. From regal pastimes like polo or croquet. From magnificent views
+                of the palace gardens and the spectacular Mehrangarh Fort. From unique themed dinners that flaunt all the
+                pomp-and-splendour of the desert kingdom.
+              </h5>
+              <a href="https://www.tripadvisor.in/Hotel_Review-g297668-d317623-Reviews-Umaid_Bhawan_Palace_Jodhpur-Jodhpur_Jodhpur_District_Rajasthan.html"
+                class="btn btn-primary">Know More!&#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rank1 py-3">
+    <div class="container" data-aos="fade-in">
+      <div class="row py-5">
+        <div class="card shadow-lg">
+          <h1 class="card-title">
+            <span style="color: rgb(77, 101, 233);">2.</span> The Oberoi, New Delhi
+          </h1>
+          <img src="/images/rank_2.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-text">
+              The Oberoi, New Delhi is an iconic luxury hotel in New Delhi. It is located in the centre of India's
+              cosmopolitan capital city. It is 30 minutes from the Domestic Airport and 45 minutes from the
+              International Airport. The interiors are a contemporary interpretation of Sir Edwin Lutyens' New Delhi
+              architecture. The hotel is also equipped with state of the art clean air technology which promises air
+              quality on par with global standards. The hotel has 220 rooms and suites inspired by Lutyens' New Delhi
+              design, with authentic furnishings and handpicked artwork. All rooms and suites feature large picture
+              windows which frame unmatched views of Delhi Golf Course on one side and the UNESCO World Heritage site of
+              Humayun's Tomb on the other. All accommodation radiates luxury.
+            </h5>
+            <a href="https://www.tripadvisor.in/Hotel_Review-g304551-d304216-Reviews-The_Oberoi_New_Delhi-New_Delhi_National_Capital_Territory_of_Delhi.html"
+              class="btn btn-primary">Know More!&#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rank1 py-3">
+    <div class="container" data-aos="fade-in">
+      <div class="row py-5">
+        <div class="card shadow-lg">
+          <h1 class="card-title">
+            <span style="color: rgb(77, 101, 233);">3.</span> Aman-I-Khas, Rhantombore National Park
+          </h1>
+          <img src="/images/rank_3.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-text">
+              Open from October through May each year, the best season for wildlife spotting, Aman-i-Khás is a
+              wilderness camp located in a rugged brushwood forest on the fringes of Ranthambore National Park. The
+              resort offers accommodation in 10 luxury air-conditioned tents each with soaring canopies draped in the
+              Moghul style, with three separate tents for dining, spa treatments and relaxing. Twice-daily, guided
+              excursions take guests into the park to spot indigenous game including tigers, leopards, hyenas,
+              crocodiles and chital deer.
+            </h5>
+            <a href="https://www.tripadvisor.in/Hotel_Review-g1155135-d446833-Reviews-Aman_i_Khas-Ranthambore_National_Park_Sawai_Madhopur_District_Rajasthan.html"
+              class="btn btn-primary">Know More!&#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rank1 py-3">
+    <div class="container" data-aos="fade-in">
+      <div class="row py-5">
+        <div class="card shadow-lg">
+          <h1 class="card-title">
+            <span style="color: rgb(77, 101, 233);">4.</span> The Taj Mahal Palace, Mumbai
+          </h1>
+          <img src="/images/rank_4.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-text">
+              Built in 1903, The Taj Mahal Palace, Mumbai is India's first luxury hotel. Offering panoramic views of the
+              Arabian Sea and the Gateway of India, the hotel is a city landmark. The hotel offers 543 rooms including
+              54 suites, each adorned with original paintings and period furniture that exude an aura of old-world charm
+              and elegance. The restaurants at The Taj Mahal Palace, Mumbai offer distinctive dining experiences that
+              cover the finest Indian and international cuisines - from casual, all-day eateries to Oriental, Japanese,
+              Indian and Mediterranean fine dining. The hotel also houses the first licensed bar of Mumbai and also a
+              beautiful sea-front restaurant for high tea and live music. Palace Services in the Palace Wing of the
+              hotel add to the experience, where the butler plays the all important role of guide and assistant.
+            </h5>
+            <a href="https://www.tripadvisor.in/Hotel_Review-g304554-d302179-Reviews-The_Taj_Mahal_Palace-Mumbai_Maharashtra.html"
+              class="btn btn-primary">Know More!&#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <div class="container" data-aos="fade-in">
+      <div class="row py-5">
+        <div class="card shadow-lg">
+          <h1 class="card-title">
+            <span style="color: rgb(77, 101, 233);">5.</span> Taj Falaknuma Palace, Hyderabad
+          </h1>
+          <img src="/images/rank_5.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-text">
+              See why so many travellers make Taj Falaknuma Palace their hotel of choice when visiting Hyderabad.
+              Providing an ideal mix of value, comfort and convenience, it offers a luxury setting with an array of
+              amenities designed for travellers like you.Free wifi is offered to guests, and rooms at Taj Falaknuma
+              Palace offer a flat screen TV, air conditioning, and a minibar.During your stay, take advantage of some of
+              the amenities offered, including room service and a concierge. Guests of Taj Falaknuma Palace are also
+              welcome to enjoy a pool and an on-site restaurant. For travellers arriving by car, free parking is
+              available.
+            </h5>
+            <a href="https://www.tripadvisor.in/Hotel_Review-g297586-d1676162-Reviews-Taj_Falaknuma_Palace-Hyderabad_Hyderabad_District_Telangana.html"
+              class="btn btn-primary">Know More!&#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <footer>
+    <p class="text-white footer-text text-color">
+      Copyright: &copy;2021 Sami Wasta| Design: <a href="#" class="footer-link">Sami Wasta</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
+  
+</body>
+
+</html>
